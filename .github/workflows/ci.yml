@@ -17,5 +17,5 @@ jobs:
     - name: Notify Slack
       run: |
         curl -X POST -H 'Content-type: application/json' \
-        --data '{"text":"Build Success for yashxch repo"}' \
+        --data '{"text":"Build Success for ShivaRam repo"}' \
         ${{ secrets.SLACK_WEBHOOK }}
